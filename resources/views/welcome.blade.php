@@ -59,9 +59,11 @@
                     <h2 class="accordion-header" id="m4-h"><button
                             class="accordion-button collapsed button-accordion text-light" type="button"
                             data-bs-toggle="collapse" data-bs-target="#m4" aria-expanded="false" aria-controls="m4">
-                            M4.</button></h2>
+                            <i class="fa-solid fa-fire pe-3"></i> M4. UX</button></h2>
                     <div id="m4" class="accordion-collapse collapse" aria-labelledby="m4-h">
-                        <div class="accordion-body"></div>
+                        <div class="accordion-body p-0">
+                            @include('milestones.m4')
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
