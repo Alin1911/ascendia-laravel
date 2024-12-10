@@ -69,10 +69,13 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="m5-h"><button
                             class="accordion-button collapsed button-accordion text-light" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#m5" aria-expanded="false" aria-controls="m5">
-                            M5.</button></h2>
+                            data-bs-toggle="collapse" data-bs-target="#m5" aria-expanded="false" aria-controls="m5"><i
+                            class="fa-solid fa-check-double pe-3"></i>
+                            M5. Validation 2</button></h2>
                     <div id="m5" class="accordion-collapse collapse" aria-labelledby="m5-h">
-                        <div class="accordion-body"></div>
+                        <div class="accordion-body p-4">
+                            @include('milestones.m5')
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -127,11 +130,11 @@
         outline: none !important;
         box-shadow: none !important;
     }
+
     .button-accordion {
         background-color: rgb(64, 112, 155) !important;
         color: white !important;
     }
-    
 </style>
 
 </html>
