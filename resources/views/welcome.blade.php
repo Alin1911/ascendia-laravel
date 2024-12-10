@@ -19,6 +19,11 @@
     </nav>
     <main>
         <div class="container py-5">
+            <div class="row d-flex justify-content-center">
+                <a href="https://theascendia.phantasmify.com" class="btn btn-outline-primary mb-4 rounded-pill col-11 col-md-6" target="_blank">
+                    <i class="fa-solid fa-users me-1"></i>Go to Ascendia
+                </a>                
+            </div>
             <div class="accordion" id="main-acc-panel">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="m1-h"><button
@@ -70,7 +75,7 @@
                     <h2 class="accordion-header" id="m5-h"><button
                             class="accordion-button collapsed button-accordion text-light" type="button"
                             data-bs-toggle="collapse" data-bs-target="#m5" aria-expanded="false" aria-controls="m5"><i
-                            class="fa-solid fa-check-double pe-3"></i>
+                                class="fa-solid fa-check-double pe-3"></i>
                             M5. Validation 2</button></h2>
                     <div id="m5" class="accordion-collapse collapse" aria-labelledby="m5-h">
                         <div class="accordion-body p-4">
