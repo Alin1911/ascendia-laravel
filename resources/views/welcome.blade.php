@@ -20,9 +20,10 @@
     <main>
         <div class="container py-5">
             <div class="row d-flex justify-content-center">
-                <a href="https://theascendia.phantasmify.com" class="btn btn-outline-primary mb-4 rounded-pill col-11 col-md-6" target="_blank">
+                <a href="https://theascendia.phantasmify.com"
+                    class="btn btn-outline-primary mb-4 rounded-pill col-11 col-md-6" target="_blank">
                     <i class="fa-solid fa-users me-1"></i>Go to Ascendia
-                </a>                
+                </a>
             </div>
             <div class="accordion" id="main-acc-panel">
                 <div class="accordion-item">
@@ -86,10 +87,13 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="m6-h"><button
                             class="accordion-button collapsed button-accordion text-light" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#m6" aria-expanded="false" aria-controls="m6">
-                            M6.</button></h2>
+                            data-bs-toggle="collapse" data-bs-target="#m6" aria-expanded="false" aria-controls="m6"><i
+                                class="fa-solid fa-magnifying-glass-chart pe-3"></i>
+                            M6. Market Research</button></h2>
                     <div id="m6" class="accordion-collapse collapse" aria-labelledby="m6-h">
-                        <div class="accordion-body"></div>
+                        <div class="accordion-body p-4">
+                            @include('milestones.m6')
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
