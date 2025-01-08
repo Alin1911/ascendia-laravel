@@ -99,19 +99,46 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="m7-h"><button
                             class="accordion-button collapsed button-accordion text-light" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#m7" aria-expanded="false" aria-controls="m7">
-                            M7.</button></h2>
+                            data-bs-toggle="collapse" data-bs-target="#m7" aria-expanded="false" aria-controls="m7"><i
+                             class="fa-solid fa-person-running pe-3"></i>
+                            M7. Minimum Viable Product - MVP</button></h2>
                     <div id="m7" class="accordion-collapse collapse" aria-labelledby="m7-h">
-                        <div class="accordion-body"></div>
+                        <div class="accordion-body p-4">
+                            @include('milestones.m7')
+                        </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="m8-h"><button
                             class="accordion-button collapsed button-accordion text-light" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#m8" aria-expanded="false" aria-controls="m7">
-                            M8.</button></h2>
+                            data-bs-toggle="collapse" data-bs-target="#m8" aria-expanded="false" aria-controls="m8"><i class="fa-solid fa-filter-circle-dollar pe-3"></i>
+                            M8. First Sale</button></h2>
                     <div id="m8" class="accordion-collapse collapse" aria-labelledby="m8-h">
-                        <div class="accordion-body"></div>
+                        <div class="accordion-body p-4">
+                            @include('milestones.m8')
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="m9-h"><button
+                            class="accordion-button collapsed button-accordion text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#m9" aria-expanded="false" aria-controls="m9"><i class="fa-solid fa-fire pe-3"></i>
+                            M9. Final Presentation - Slides Upload</button></h2>
+                    <div id="m9" class="accordion-collapse collapse" aria-labelledby="m9-h">
+                        <div class="accordion-body p-4">
+                            @include('milestones.m9')
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="m11-h"><button
+                            class="accordion-button collapsed button-accordion text-light" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#m11" aria-expanded="false" aria-controls="m11"><i class="fa-solid fa-forward-fast pe-3"></i>
+                            M11. Finalise Fiki</button></h2>
+                    <div id="m11" class="accordion-collapse collapse" aria-labelledby="m11-h">
+                        <div class="accordion-body p-4">
+                            @include('milestones.m11')
+                        </div>
                     </div>
                 </div>
             </div>
