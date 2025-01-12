@@ -87,20 +87,6 @@
                       </div>
                    </div>
                 </div>
-                <div class="col-12 col-md-6 p-3">
-                   <div class="card border-0 shadow">
-                      <div class="card-body text-center">
-                         <h5 class="card-title text-uppercase">Vlad Bolea</h5>
-                         <strong class="mb-3">Backend Developer</strong><br />
-                         <small class="text-decoration-underline">vladbolea@outlook.com</small>
-                         <p class="card-text">colaborează la crearea și optimizarea
-                            funcționalităților backend, contribuind la stabilitatea și
-                            scalabilitatea platformei</p>
-                         <img src="https://ascendia.phantasmify.com//storage/images/vlad.png"
-                            class="img-fluid rounded" style="max-height: 400px;">
-                      </div>
-                   </div>
-                </div>
              </div>
           </div>
        </div>
